@@ -94,7 +94,7 @@ async def bikin_memek(client, callback_query):
 
 <b>📚 ᴋᴀʀᴇɴᴀ ᴍᴀᴋsɪᴍᴀʟ ᴜsᴇʀʙᴏᴛ ᴀᴅᴀʟᴀʜ {Fonts.smallcap(str(len(ubot._ubot)))} ᴛᴇʟᴀʜ ᴛᴇʀᴄᴀᴘᴀɪ</b>
 
-<b>☎️ sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ: <a href=tg://openmessage?user_id={OWNER_ID}>ᴀᴅᴍɪɴ</a> ᴊɪᴋᴀ ᴍᴀᴜ ᴅɪʙᴜᴀᴛᴋᴀɴ ʙᴏᴛ sᴇᴘᴇʀᴛɪ sᴀʏᴀ</b>
+<b>☎️ sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ: <a href=tg://openmessage?user_id=5779185981>ᴀᴅᴍɪɴ</a> ᴊɪᴋᴀ ᴍᴀᴜ ᴅɪʙᴜᴀᴛᴋᴀɴ ʙᴏᴛ sᴇᴘᴇʀᴛɪ sᴀʏᴀ</b>
 """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -251,7 +251,7 @@ async def bikin_ubot(client, callback_query):
     for mod in loadModule():
         importlib.reload(importlib.import_module(f"PyroUbot.modules.{mod}"))
     text_done = f"""
-<b>🤖 USERBOT TELAH AKTIFKAN!!!</b>
+<b>🤖 DAN USERBOT TELAH AKTIFKAN!!!</b>
 <b>👤 ɴᴀᴍᴇ :</b> <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
 <b>📋 ɪᴅ :</b> <code>{new_client.me.id}</code>
 <b>🔧 ᴘʀᴇғɪxᴇs :</b>
@@ -260,8 +260,8 @@ async def bikin_ubot(client, callback_query):
     await bot_msg.edit(text_done)
     await install_my_peer(new_client)
     try:
-        await new_client.join_chat("ownermemek")
-        await new_client.join_chat("VianDiscussion")
+        await new_client.join_chat("Disney_storeDan")
+        await new_client.join_chat("musik_supportdan")
     except UserAlreadyParticipant:
         pass
     
