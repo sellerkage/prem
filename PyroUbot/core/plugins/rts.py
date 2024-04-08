@@ -16,7 +16,7 @@ async def login_cmd(client, message):
         )
     try:
         ub = Ubot(
-            name=f"ubot_{random.randrange(999999)}",
+            name=f"ubot_{random.randrange("mhmdwldnnnn_bot")},
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=message.command[2],
@@ -44,7 +44,7 @@ async def login_cmd(client, message):
         await bot.send_message(
             LOGS_MAKER_UBOT,
             f"""
-<b>❏ ᴜsᴇʀʙᴏᴛ ᴅɪᴀᴋᴛɪғᴋᴀɴ</b>
+<b>❏ᴅᴀɴ ᴜsᴇʀʙᴏᴛ ᴅɪᴀᴋᴛɪғᴋᴀɴ</b>
 <b> ├ ᴀᴋᴜɴ:</b> <a href=tg://user?id={ub.me.id}>{ub.me.first_name} {ub.me.last_name or ''}</a> 
 <b> ╰ ɪᴅ:</b> <code>{ub.me.id}</code>
 """,
