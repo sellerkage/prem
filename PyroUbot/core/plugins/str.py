@@ -26,7 +26,7 @@ async def ping_cmd(client, message):
 """
     else:
         _ping = f"""
-<b>❏ ᴘᴏɴɢ:</b> <code>{str(delta_ping).replace('.', ',')} ms</code>
+<b>❏ᴘᴏɴɢ:</b> <code>{str(delta_ping).replace('.', ',')} ms</code>
 <b>⏰ᴜᴘᴛɪᴍᴇ:</b> <code>{str(delta_time).replace('.', ',')} ms</code>
 <b>👑ᴍᴇɴᴛɪᴏɴ:</b> <code>@{bot.me.username}</code>
 """
