@@ -16,7 +16,7 @@ async def login_cmd(client, message):
         )
     try:
         ub = Ubot(
-            name=f"ubot_{random.randrange("mhmdwldnnnn_bot")},
+            name=f"ubot_{random.randrange("")},
             api_id=API_ID,
             api_hash=API_HASH,
             session_string=message.command[2],
