@@ -27,14 +27,13 @@ async def ping_cmd(client, message):
     else:
         _ping = f"""
 <b>❏ᴘᴏɴɢ:</b> <code>{str(delta_ping).replace('.', ',')} ms</code>
-<b>⏰ᴜᴘᴛɪᴍᴇ:</b> <code>{str(delta_time).replace('.', ',')} ms</code>
 <b>👑ᴍᴇɴᴛɪᴏɴ:</b> <code>@{bot.me.username}</code>
 """
     await message.reply(_ping)
 
 
 async def start_cmd(client, message):
-    if len(message.command) < 3:
+    if len(message.command) < 2:
         buttons = Button.start(message)
         msg = MSG.START(message)
         await message.reply(msg, reply_markup=InlineKeyboardMarkup(buttons))
