@@ -9,7 +9,6 @@ class FILTERS:
     PRIVATE = filters.private
     OWNER = filters.user(OWNER_ID)
     ME_GROUP = filters.me & filters.group
-    ME_USER = filters.me & filters.user(USER_ID)
     # ME_DEVS = filters.me & filters.user(DEVS)
 
 
